@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*, 
+::after,
+::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 6px 10px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;  
+}
+
+.img-holder {
+  width: 30%;  
+  @media (max-width: 768px) {
+    width: 40%;      
+}
+@media (max-width: 360px) {
+    width: 60%;
+}
+}
+
+.weather {
+  font-weight: 500;
+  font-size: 40px;
+  @media (max-width: 768px) {
+    font-size: 25px;
+    }   
+    @media (max-width: 360px) {
+        font-size: 17px;
+    }
+}
+
+.app.warm {
+  background: url('../img/rain.jpg') no-repeat center/cover ;
+  height: 170vh;
+ }
+
+ .app.clear {
+  background: url('../img/clear.jpg') no-repeat center/cover ;
+ }
+
+.app {
+  height: 170vh;
+  position: relative;
+  color: #fff;
+  background: linear-gradient( rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.7) ), url('../img/app-img.jpg') no-repeat center/cover;
+  transition: ease-in-out 0.4s; 
+  @media (max-width: 1024px) {
+    height: 180vh;
+    }
+  @media (max-width: 768px) {
+    height: 180vh;
+    }
+
+  .app-title {
+    font-size: 96px;
+    @media (max-width: 768px) {
+        font-size: 85px;
+    }
+    @media (max-width: 360px) {
+        font-size: 35px;
+    }
+  }
+
+  .search-holder {
+    text-align: center ;
+    padding: 12px;
+  }
+  
+  .search {
+    padding: 10px 20px ;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 1px solid rgba(255,255,255,0.9);
+    background-color: rgba(255,255,255,0.4);
+    color: #fff;
+    width: 700px;    
+    margin-bottom: 10px;
+    
+    @media (max-width: 768px) {
+        width: 500px;
+    }
+    @media (max-width: 568px) {
+        width: 340px;
+    }
+    @media (max-width: 360px) {
+        width: 280px;
+    }
+  
+    &::placeholder {
+      color: #fff;
+    }    
+  } 
+
+  .flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    @media (max-width: 568px) {
+       justify-content: center;
+    }
+  }
+  
+  .text-holder {
+    margin-right: 25px;
+    @media (max-width: 568px) {
+        text-align: center;
+     }
+  }
+  
+  .top {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 30px 0;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.2);  
+}
+
+  .description {
+    position: relative;
+    right: -95%;
+    transform-origin: 0 0;
+    transform: rotate(270deg);
+    font-size: 25px;
+    @media (max-width: 360px) {
+        font-size: 18px;
+    }
+  }
+  
+  .bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px 5px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .line {
+    display: block;
+    border: 1px solid rgb(43, 42, 42);
+  } 
+}
+
+
+@import './mixin';
+@import './geo';
+@import './header';
+@import './weekContainer';
+
+
+
