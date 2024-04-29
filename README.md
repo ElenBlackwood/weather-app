@@ -18,7 +18,7 @@ Welcome to the Weather Mobile App! This mobile application provides real-time we
 
 ## Technologies Used
 - **Frontend**: 
-  - [React Native](https://reactnative.dev/)
+  - [React](https://react.dev/)
   - [Axios](https://axios-http.com/)
   - [Moment.js](https://momentjs.com/)
   - [Fonts Icons](https://fontawesome.com/)
