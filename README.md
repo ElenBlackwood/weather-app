@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+## MOBILE WEATHER APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src = "weather-app.PNG" >
 
-## Available Scripts
+## Live Demo
+Check out the live on your phone: 
 
-In the project directory, you can run:
+https://weather-mobile-app.netlify.app/
 
-### `npm start`
+# Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Welcome to the Weather Mobile App! This mobile application provides real-time weather forecasts and information right at your fingertips. With a sleek and intuitive user interface, you can easily check the current weather conditions, view hourly and daily forecasts, and stay updated on weather alerts for your location. Whether you're planning your day or preparing for outdoor activities, the Weather Mobile App has you covered.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
+- **Real-time Weather Forecasts**: Get up-to-date weather information for your location.
+- **Hourly and Daily Forecasts**: View detailed forecasts for the next few hours and days.
+- **Weather Alerts**: Stay informed about weather alerts and warnings affecting your area.
 
-### `npm test`
+## Technologies Used
+- **Frontend**: 
+  - [React Native](https://reactnative.dev/)
+  - [Axios](https://axios-http.com/)
+  - [Moment.js](https://momentjs.com/)
+  - [Fonts Icons](https://fontawesome.com/)
+  - [Vite](https://vitejs.dev/)
+  - [Sass](https://sass-lang.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **API**: 
+  - [OpenWeatherMap API](https://openweathermap.org/api)
 
-### `npm run build`
+## Getting Started
+Please go to the main folder https://github.com/ElenBlackwood/weather-app/tree/main
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the Weather Mobile App locally, ensure that you have the following prerequisites installed:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Node.js**: Make sure you have Node.js installed on your machine. You can download it from [here](https://nodejs.org/).
+- **Git**: Ensure Git is installed on your machine. You can download it from [here](https://git-scm.com/).
+- **OpenWeatherMap API Key**: Sign up for an API key at [OpenWeatherMap](https://openweathermap.org/api) and replace `"YOUR_API_KEY"` in the appropriate location in your codebase with your actual API key.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once you have the prerequisites installed, follow these steps:
 
-### `npm run eject`
+1. **Clone the Repository**: Clone this repository to your local machine.
+2. **Install Dependencies**: Navigate to the project directory and run `npm install` to install all required dependencies.
+3. **Allow Geo Location**: Make sure to allow location access when prompted. This is necessary for the app to fetch weather data for your current location.
+4. **Start the Development Server**: Run `npm start` to start the development server.
+5. **Launch the App**: Open the project in an iOS or Android emulator, or use any other method you prefer to run React Native apps.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Feedback and Contributions
+Feedback and contributions are welcome! If you have any suggestions for improving the Weather Mobile App or would like to contribute to its development, please feel free to submit a pull request or open an issue on GitHub.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
+This project is licensed under the [MIT License](LICENSE).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
